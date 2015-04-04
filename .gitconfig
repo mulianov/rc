@@ -19,3 +19,5 @@
 	smtpserverport = 587
 	smtpencryption = tls
 	chainreplyto = false
+[credential]
+	helper = netrc -f ~/.netrc.asc -v
