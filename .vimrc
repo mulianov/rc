@@ -51,7 +51,7 @@ NeoBundle 'airblade/vim-gitgutter'
 NeoBundleLazy 'gregsexton/gitv', {'depends':['tpope/vim-fugitive'],
         \ 'autoload':{'commands':'Gitv'}}
 
-" Bundle 'takac/vim-hardtime'
+Bundle 'takac/vim-hardtime'
 
 NeoBundle 'SirVer/ultisnips'
 NeoBundle 'honza/vim-snippets'
@@ -426,8 +426,8 @@ vmap <A-F8> <esc>:SyntasticCheck<CR>
 
 let g:EasyClipShareYanks = 1
 
-"let g:hardtime_default_on = 1
-"let g:hardtime_timeout = 2000
+let g:hardtime_default_on = 1
+let g:hardtime_timeout = 1000
 
 let g:startify_session_persistence = 1
 let g:startify_session_delete_buffers = 1
