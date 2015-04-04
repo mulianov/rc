@@ -1,0 +1,76 @@
+!Xft.dpi: 144
+! hintnone, hintslight, hintmedium, hintfull
+Xft.hintstyle: hintlight
+! Xft.hinting: true
+Xft.hinting: full
+Xft.antialias : true
+! lcdnone, lcddefault, lcdlight, lcdlegacy
+Xft.lcdfilter: lcddefault
+Xft.rgba: rgb
+Xft.dpi: 141
+
+URxvt.buffered: 			true
+URxvt.background: 			black
+URxvt.foreground: 			white
+URxvt.cursorColor: 			green
+URxvt.underlineColor:   		yellow
+! URxvt.font: 				xft:Literation Mono Powerline:pixelsize=15
+URxvt.font: 				xft:Liberation Mono for Powerline:autohint=true:pixelsize=15:antialias=true
+URxvt.boldFont: 			xft:Liberation Mono for Powerline:bold:pixelsize=15
+URxvt.italicFont: 			xft:Liberation Mono for Powerline:italic:autohint=true:pixelsize=15
+URxvt.boldItalicFont: 			xft:Liberation Mono for Powerline:bold:italic:autohint=true:pixelsize=15
+! URxvt.font: 				xft:Inconsolata for Powerline:pixelsize=17
+! URxvt.font: 				xft:Droid Sans Mono for Powerline:pixelsize=15
+! URxvt.italicFont:
+! URxvt.boldItalicFont:
+URxvt.fading: 				50
+URxvt.borderColor: 			black
+URxvt.scrollBar: 			true
+URxvt.scrollstyle: 			plain
+URxvt.saveLines: 			65535
+URxvt.internalBorder:		2
+URxvt.externalBorder: 		0
+URxvt.borderLess: 			false
+URxvt.cursorBlink: 			true
+URxvt.pointerBlank: 		true
+URxvt.pointerBlankDelay:	2
+URxvt.urgentOnBell:			true
+URxvt.iso14755:                         false
+URxvt.iso14755_52:                      false
+URxvt.print-pipe:                       cat > ~/.urxvt.dump
+
+xterm*geometry:           80x25
+xterm*faceName:           xft:Terminess Powerline:pixelsize=12
+! xterm*faceName:           terminus:pixelsize=18
+!xterm*font:             -*-dina-medium-r-*-*-22-*-*-*-*-*-*-*
+xterm*dynamicColors:      true
+xterm*utf8:               2
+xterm*eightBitInput:      false
+xterm*saveLines:          512
+xterm*scrollTtyKeypress:  true
+xterm*scrollTtyOutput:    false
+xterm*scrollBar:          true
+xterm*rightScrollBar:     true
+xterm*jumpScroll:         true
+xterm*multiScroll:        true
+xterm*toolBar:            false
+xterm*reverseVideo:       true
+
+*color0:      #000000
+*color1:      #9e1828
+*color2:      #aece92
+*color3:      #968a38
+*color4:      #0000a8
+*color5:      #963c59
+*color6:      #418179
+*color7:      #bebebe
+*color8:      #666666
+*color9:      #cf6171
+*color10:     #c5f779
+*color11:     #fff796
+*color12:     #4186be
+*color13:     #cf9ebe
+*color14:     #71bebe
+*color15:     #ffffff
+
+

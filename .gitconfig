@@ -1,0 +1,21 @@
+[color]
+	ui = auto
+[user]
+	name = Mikhail Ulyanov
+	email = mikhail.ulyanov@cogentembedded.com
+[core]
+	editor = gvim
+[merge]
+	tool = meld
+[push]
+	default = matching
+[alias]
+    co = checkout
+    br = branch
+[sendemail]
+	from = Mikhail Ulyanov <mikhail.ulyanov@cogentembedded.com>
+	smtpserver = smtp.gmail.com
+	smtpuser = mikhail.ulyanov@cogentembedded.com
+	smtpserverport = 587
+	smtpencryption = tls
+	chainreplyto = false
