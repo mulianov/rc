@@ -20,4 +20,4 @@
 	smtpencryption = tls
 	chainreplyto = false
 [credential]
-	helper = netrc -f ~/.netrc.asc -v
+	helper = netrc -f ~/.netrc.gpg -v -d
