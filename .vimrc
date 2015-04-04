@@ -51,7 +51,7 @@ NeoBundle 'airblade/vim-gitgutter'
 NeoBundleLazy 'gregsexton/gitv', {'depends':['tpope/vim-fugitive'],
         \ 'autoload':{'commands':'Gitv'}}
 
-Bundle 'takac/vim-hardtime'
+NeoBundle 'takac/vim-hardtime'
 
 NeoBundle 'SirVer/ultisnips'
 NeoBundle 'honza/vim-snippets'
